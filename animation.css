@@ -127,3 +127,30 @@ transition-duration: 2s;
   transform: rotate(300deg);
   }
 }
+
+/* Esercizio 12 */
+.ex-12-button:hover .ex-12-top-white{
+  position: absolute;
+    animation-name: esercizio-top;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes esercizio-top {
+  0% { left:20px;}
+  100% { left:80px;}
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+  position: absolute;
+    animation-name: esercizio-bottom;
+    animation-duration: 1s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+
+@keyframes esercizio-bottom {
+  0% {right:20px;}
+  100% {right:80px;}
+}

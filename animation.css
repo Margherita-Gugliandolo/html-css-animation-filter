@@ -1,0 +1,96 @@
+/* Esercizio 1 */
+.ex-1-square{
+transition-property: background-color;
+transition-duration: 2s;
+}
+.ex-1-square:hover {
+background-color: #ed0e0e;
+}
+
+
+/* Esercizio 2 */
+.ex-2-square:hover{
+width: 100%;
+}
+.ex-2-square{
+transition: width 2s ease-out 0.5s;
+}
+
+/* Esercizio 3 */
+
+.ex-3-square{
+  transition-property: border-radius;
+transition-duration: 0.3s;
+}
+.ex-3-square:hover{
+  border-radius: 50%;
+}
+
+/* Esercizio 4 */
+.ex-4-square{
+  transition-property: opacity;
+transition-duration: 1.5s;
+}
+
+.ex-4-square:hover{
+  opacity: 0;
+}
+
+/* Esercizio 5 */
+
+.ex-5-square{
+transition-property: width, height;
+transition-duration: 2s;
+}
+.ex-5-square:hover{
+  transform: scale(2);
+}
+
+.ex-5-square:active{
+  transform:scale(3);
+}
+
+/* Esercizio 6 */
+.ex-6-img{
+  transition-property: filter;
+}
+
+.ex-6-img:hover{
+  filter: grayscale(100%);
+}
+
+/* Esercizio 7 */
+
+.ex-7-img{
+  transition-property: filter;
+  transition-duration: 2s;
+}
+
+.ex-7-img:hover{
+  filter:contrast(10%);
+  filter:sepia(100%);
+}
+
+/* Esercizio 8 */
+
+.ex-8-img{
+  transition-property: filter,border-radius;
+  transition-duration: 2s;
+}
+.ex-8-img:hover{
+  border-radius: 20px;
+  filter:hue-rotate(90deg), sepia(80%);
+}
+
+/* Esercizio 9 */
+
+.ex-9-img{
+  transition-property: filter,border-radius,opacity,sepia;
+  transition: 2s;
+}
+
+.ex-9-img:hover{
+  border-radius: 20px;
+  filter:opacity(80%),grayscale(60%);
+  transform: scale(1.5);
+}

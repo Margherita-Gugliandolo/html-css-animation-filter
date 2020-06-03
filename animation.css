@@ -115,7 +115,8 @@ transition-duration: 2s;
 
 .ex-11-icon:hover{
   position: relative;
-  animation: icona-2 2s infinite;
+  animation: icona-2 2s 0.5s infinite;
+  animation-direction: alternate;
 }
 
 @keyframes icona-2{
@@ -124,5 +125,5 @@ transition-duration: 2s;
   }
   to {
   transform: rotate(300deg);
-}
+  }
 }

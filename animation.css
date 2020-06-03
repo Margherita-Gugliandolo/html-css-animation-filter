@@ -96,3 +96,33 @@ transition-duration: 2s;
   filter:grayscale(60%);
   transform: scale(1.5);
 }
+
+/* Esercizio 10 */
+.ex-10-icon{
+  position: relative;
+  animation: icona 2s infinite;
+}
+@keyframes icona{
+  from {
+  transform: rotate(0deg);
+  }
+  to {
+  transform: rotate(-360deg);
+}
+}
+
+/* Esercizio 11 */
+
+.ex-11-icon:hover{
+  position: relative;
+  animation: icona-2 2s infinite;
+}
+
+@keyframes icona-2{
+  from {
+  transform: rotate(0deg);
+  }
+  to {
+  transform: rotate(300deg);
+}
+}
